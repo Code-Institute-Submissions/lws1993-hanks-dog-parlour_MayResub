@@ -1,0 +1,548 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000001",
+        "name": "Pink Leopard Bandana",
+        "description": "The pink leopard bandanas are made from lightweight, quick drying and breathable 100% polyester with a rubber logo. Available in a variety of sizes, classic triangular shape, simply tie-on to the desired length. These are also machine washable (gentle wash)",
+        "price": 3.99,
+        "category": 1,
+        "image_url": "https://imgur.com/5aDkpXd",
+        "image": "bandana-5.jpg"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000002",
+        "name": "Green Sheep Bandana",
+        "description": "The green sheep bandanas are made from lightweight, quick drying and breathable 100% polyester with a rubber logo. Available in a variety of sizes, classic triangular shape, simply tie-on to the desired length. These are also machine washable (gentle wash)",
+        "price": 3.99,
+        "category": 1,
+        "image_url": "https://imgur.com/6sG1hVW",
+        "image": "bandana-1.jpg"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000003",
+        "name": "Coffee & Donut Bandana",
+        "description": "The coffee & donut bandanas are made from lightweight, quick drying and breathable 100% polyester with a rubber logo. Available in a variety of sizes, classic triangular shape, simply tie-on to the desired length. These are also machine washable (gentle wash)",
+        "price": 3.99,
+        "category": 1,
+        "image_url": "https://imgur.com/wVcvELU",
+        "image": "bandana-4.jpg"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000004",
+        "name": "Black & White Spot Bandana",
+        "description": "The black & white spot bandanas are made from lightweight, quick drying and breathable 100% polyester with a rubber logo. Available in a variety of sizes, classic triangular shape, simply tie-on to the desired length. These are also machine washable (gentle wash)",
+        "price": 3.99,
+        "category": 1,
+        "image_url": "https://imgur.com/d6B2ZHG",
+        "image": "bandana-2.jpg"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000005",
+        "name": "Grey Pattern Lead",
+        "description": "The grey pattern bandanas are made from lightweight, quick drying and breathable 100% polyester with a rubber logo. Available in a variety of sizes, classic triangular shape, simply tie-on to the desired length. These are also machine washable (gentle wash)",
+        "price": 3.99,
+        "category": 1,
+        "image_url": "https://imgur.com/AVcPn2j",
+        "image": "bandana-3.jpg"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000006",
+        "name": "Coffee & Donut Doggy Bag",
+        "description": "Our beautiful coffe & donut doggy bag Features a rubber opening for the poo bags to pull through, zipper to refill your poo bag holder plus a handy clip to attach to your matching lead or waist belt. Made to be easy to clean and heavy duty for rough adventures, Doubles up as a handy carry pouch for treats or other small items. Free roll of poo bags included. Measures 8x5x5cm. Matching harness, collar, lead and bandana available",
+        "price": 3.99,
+        "category": 2,
+        "image_url": "https://imgur.com/kVSmQdR",
+        "image": "bag-1.jpg"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000007",
+        "name": "Grey Pattern Doggy Bag",
+        "description": "Our beautiful grey pattern doggy bag Features a rubber opening for the poo bags to pull through, zipper to refill your poo bag holder plus a handy clip to attach to your matching lead or waist belt. Made to be easy to clean and heavy duty for rough adventures, Doubles up as a handy carry pouch for treats or other small items. Free roll of poo bags included. Measures 8x5x5cm. Matching harness, collar, lead and bandana available",
+        "price": 3.99,
+        "category": 2,
+        "image_url": "https://imgur.com/AS8KD6U",
+        "image": "bag-2.jpg"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000008",
+        "name": "Pink Leopard Doggy Bag",
+        "description": "Our beautiful pink leopard doggy bag Features a rubber opening for the poo bags to pull through, zipper to refill your poo bag holder plus a handy clip to attach to your matching lead or waist belt. Made to be easy to clean and heavy duty for rough adventures, Doubles up as a handy carry pouch for treats or other small items. Free roll of poo bags included. Measures 8x5x5cm. Matching harness, collar, lead and bandana available",
+        "price": 3.99,
+        "category": 2,
+        "image_url": "https://imgur.com/8DBBpJ8",
+        "image": "bag-3.jpg"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000009",
+        "name": "Black & White Spot Doggy Bag",
+        "description": "Our beautiful black & white spot doggy bag Features a rubber opening for the poo bags to pull through, zipper to refill your poo bag holder plus a handy clip to attach to your matching lead or waist belt. Made to be easy to clean and heavy duty for rough adventures, Doubles up as a handy carry pouch for treats or other small items. Free roll of poo bags included. Measures 8x5x5cm. Matching harness, collar, lead and bandana available",
+        "price": 3.99,
+        "category": 2,
+        "image_url": "https://imgur.com/Dn0TkEh",
+        "image": "bag-4.jpg"
+      }
+    },
+    {
+      "pk": 10,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000010",
+        "name": "Green Sheep Doggy Bag",
+        "description": "Our beautiful green sheep doggy bag Features a rubber opening for the poo bags to pull through, zipper to refill your poo bag holder plus a handy clip to attach to your matching lead or waist belt. Made to be easy to clean and heavy duty for rough adventures, Doubles up as a handy carry pouch for treats or other small items. Free roll of poo bags included. Measures 8x5x5cm. Matching harness, collar, lead and bandana available",
+        "price": 3.99,
+        "category": 2,
+        "image_url": "https://imgur.com/Jorxcv5",
+        "image": "bag-5.jpg"
+      }
+    },
+    {
+      "pk": 11,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000011",
+        "name": "Black & White Spot Lead",
+        "description": "The black & white spot lead is a Stylish double-sided lead with rubber a logo, black metal clip and padded handle for extra comfort. Hard wearing polyester webbing Lead. Approx 5ft in length. Easy to wash (hand wash cycle) made with quick drying material. Available in S M L (length is the same in all sizes but width varies). Matching harness, collar, lead and bandana available",
+        "price": 10.99,
+        "category": 3,
+        "image_url": "https://imgur.com/jvXu0Dm",
+        "image": "lead-1.jpg"
+      }
+    },
+    {
+      "pk": 12,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000012",
+        "name": "Grey Pattern Lead",
+        "description": "The grey pattern lead is a Stylish double-sided lead with rubber a logo, black metal clip and padded handle for extra comfort. Hard wearing polyester webbing Lead. Approx 5ft in length. Easy to wash (hand wash cycle) made with quick drying material. Available in S M L (length is the same in all sizes but width varies). Matching harness, collar, lead and bandana available",
+        "price": 10.99,
+        "category": 3,
+        "image_url": "https://imgur.com/8H9pWJx",
+        "image": "lead-2.jpg"
+      }
+    },
+    {
+      "pk": 13,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000013",
+        "name": "Green Sheep Lead",
+        "description": "The green sheep lead is a Stylish double-sided lead with rubber a logo, black metal clip and padded handle for extra comfort. Hard wearing polyester webbing Lead. Approx 5ft in length. Easy to wash (hand wash cycle) made with quick drying material. Available in S M L (length is the same in all sizes but width varies). Matching harness, collar, lead and bandana available",
+        "price": 10.99,
+        "category": 3,
+        "image_url": "https://imgur.com/YtzjzCB",
+        "image": "lead-3.jpg"
+      }
+    },
+    {
+      "pk": 14,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000014",
+        "name": "Coffee & Donut Lead",
+        "description": "The coffee & donut lead is a Stylish double-sided lead with rubber a logo, black metal clip and padded handle for extra comfort. Hard wearing polyester webbing Lead. Approx 5ft in length. Easy to wash (hand wash cycle) made with quick drying material. Available in S M L (length is the same in all sizes but width varies). Matching harness, collar, lead and bandana available",
+        "price": 10.99,
+        "category": 3,
+        "image_url": "https://imgur.com/bCEvgIi",
+        "image": "lead-4.jpg"
+      }
+    },
+    {
+      "pk": 15,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000015",
+        "name": "Pink Leopard Lead",
+        "description": "The pink leopard lead is a Stylish double-sided lead with rubber a logo, black metal clip and padded handle for extra comfort. Hard wearing polyester webbing Lead. Approx 5ft in length. Easy to wash (hand wash cycle) made with quick drying material. Available in S M L (length is the same in all sizes but width varies). Matching harness, collar, lead and bandana available",
+        "price": 10.99,
+        "category": 3,
+        "image_url": "https://imgur.com/3ZACDSG",
+        "image": "lead-5.jpg"
+      }
+    },
+    {
+      "pk": 16,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000016",
+        "name": "Black & White Spot Collar",
+        "description": "The black & white collar is a Stylish collar with rubber a logo, black metal D ring, perfect for an id tag and an adjustable strap for the perfect fit. Hard wearing polyester webbing collar. Available in S/35-44cm M/39-51cm L/42-56cm",
+        "price": 9.99,
+        "category": 4,
+        "image_url": "https://imgur.com/ZdbaMkE",
+        "image": "collar-1.jpg"
+      }
+    },
+    {
+      "pk": 17,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000017",
+        "name": "Coffee & Donut Collar",
+        "description": "The coffee & donut collar is a Stylish collar with rubber a logo, black metal D ring, perfect for an id tag and an adjustable strap for the perfect fit. Hard wearing polyester webbing collar. Available in S/35-44cm M/39-51cm L/42-56cm",
+        "price": 9.99,
+        "category": 4,
+        "image_url": "https://imgur.com/fXRRaJ7",
+        "image": "collar-2.jpg"
+      }
+    },
+    {
+      "pk": 18,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000018",
+        "name": "Pink Leopard Collar",
+        "description": "The pink leopard collar is a Stylish collar with rubber a logo, black metal D ring, perfect for an id tag and an adjustable strap for the perfect fit. Hard wearing polyester webbing collar. Available in S/35-44cm M/39-51cm L/42-56cm",
+        "price": 9.99,
+        "category": 4,
+        "image_url": "https://imgur.com/tYnkHKr",
+        "image": "collar-3.jpg"
+      }
+    },
+    {
+      "pk": 19,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000019",
+        "name": "Green Sheep Collar",
+        "description": "The green sheep collar is a Stylish collar with rubber a logo, black metal D ring, perfect for an id tag and an adjustable strap for the perfect fit. Hard wearing polyester webbing collar. Available in S/35-44cm M/39-51cm L/42-56cm",
+        "price": 9.99,
+        "category": 4,
+        "image_url": "https://imgur.com/EXFj5bi",
+        "image": "collar-4.jpg"
+      }
+    },
+    {
+      "pk": 20,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000020",
+        "name": "Grey Pattern Collar",
+        "description": "The grey pattern collar is a Stylish collar with rubber a logo, black metal D ring, perfect for an id tag and an adjustable strap for the perfect fit. Hard wearing polyester webbing collar. Available in S/35-44cm M/39-51cm L/42-56cm",
+        "price": 9.99,
+        "category": 4,
+        "image_url": "https://imgur.com/FdmHTHd",
+        "image": "collar-5.jpg"
+      }
+    },
+    {
+      "pk": 21,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000021",
+        "name": "Grey Pattern Bundle",
+        "description": "Get your hands on the grey pattern bundle which includes a full lined padded harness, matching collar, matching lead, matching doggy bag with bags inlcuded, matching bow and bandana.",
+        "price": 45.00,
+        "category": 5,
+        "image_url": "https://imgur.com/7J679oa",
+        "image": "bundle-1.jpg"
+      }
+    },
+    {
+      "pk": 22,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000022",
+        "name": "Green Sheep Bundle",
+        "description": "Get your hands on the green sheep bundle which includes a full lined padded harness, matching collar, matching lead, matching doggy bag with bags inlcuded, matching bow and bandana.",
+        "price": 45.00,
+        "category": 5,
+        "image_url": "https://imgur.com/7il7Ghm",
+        "image": "bundle-2.jpg"
+      }
+    },
+    {
+      "pk": 23,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000023",
+        "name": "Coffee & Donut Bundle",
+        "description": "Get your hands on the coffee & donut bundle which includes a full lined padded harness, matching collar, matching lead, matching doggy bag with bags inlcuded, matching bow and bandana.",
+        "price": 45.00,
+        "category": 5,
+        "image_url": "https://imgur.com/fhgCFHl",
+        "image": "bundle-3.jpg"
+      }
+    },
+    {
+      "pk": 24,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000024",
+        "name": "Black & White Spot Bundle",
+        "description": "Get your hands on the black & white bundle which includes a full lined padded harness, matching collar, matching lead, matching doggy bag with bags inlcuded, matching bow and bandana.",
+        "price": 45.00,
+        "category": 5,
+        "image_url": "https://imgur.com/xYlJCPk",
+        "image": "bundle-4.jpg"
+      }
+    },
+    {
+      "pk": 25,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000025",
+        "name": "Pink Leopard Bundle",
+        "description": "Get your hands on the pink leopard bundle which includes a full lined padded harness, matching collar, matching lead, matching doggy bag with bags inlcuded, matching bow and bandana.",
+        "price": 45.00,
+        "category": 5,
+        "image_url": "https://imgur.com/1Mfet6o",
+        "image": "bundle-5.jpg"
+      }
+    },
+    {
+      "pk": 26,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000026",
+        "name": "Grey Pattern Bow",
+        "description": "The grey pattern bow ties are the perfect accessory for dogs of all sizes. Each bow tie is made using only high-quality fabrics and has an elastic loop at the back which is easy for attaching to any collar.",
+        "price": 2.99,
+        "category": 6,
+        "image_url": "https://imgur.com/doaLHwn",
+        "image": "bow-1.jpg"
+      }
+    },
+    {
+      "pk": 27,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000027",
+        "name": "Pink Leopard Bow",
+        "description": "The pink leopard bow ties are the perfect accessory for dogs of all sizes. Each bow tie is made using only high-quality fabrics and has an elastic loop at the back which is easy for attaching to any collar.",
+        "price": 2.99,
+        "category": 6,
+        "image_url": "https://imgur.com/lelN5bt",
+        "image": "bow-2.jpg"
+      }
+    },
+    {
+      "pk": 28,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000028",
+        "name": "Coffee & Donut Bow",
+        "description": "The coffee & donut bow ties are the perfect accessory for dogs of all sizes. Each bow tie is made using only high-quality fabrics and has an elastic loop at the back which is easy for attaching to any collar.",
+        "price": 2.99,
+        "category": 6,
+        "image_url": "https://imgur.com/Kek9ggq",
+        "image": "bow-3.jpg"
+      }
+    },
+    {
+      "pk": 29,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000029",
+        "name": "Black & White Spot Bow",
+        "description": "The black & white bow ties are the perfect accessory for dogs of all sizes. Each bow tie is made using only high-quality fabrics and has an elastic loop at the back which is easy for attaching to any collar.",
+        "price": 2.99,
+        "category": 6,
+        "image_url": "https://imgur.com/HLp9aXp",
+        "image": "bow-4.jpg"
+      }
+    },
+    {
+      "pk": 30,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000030",
+        "name": "Green Sheep Bow",
+        "description": "The green sheep bow ties are the perfect accessory for dogs of all sizes. Each bow tie is made using only high-quality fabrics and has an elastic loop at the back which is easy for attaching to any collar.",
+        "price": 2.99,
+        "category": 6,
+        "image_url": "https://imgur.com/bhB1DHG",
+        "image": "bow-5.jpg"
+      }
+    },
+    {
+      "pk": 31,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000031",
+        "name": "Coffee & Donut Harness",
+        "description": "The coffe & donut harness is a fully lined padded harness with adjustable neck and chest strap for the perfect fit, has a black buckle, rubber logo badge and a D ring to attach your matching leads. Made with fast drying material for those wet and muddy adventures.Neck dimesnsions - S/35-44cm M/39-51cm L/42-56cm. Chest dimensions - S/41-54cm M/46-61cm L/57-83cm.",
+        "price": 17.99,
+        "category": 7,
+        "image_url": "https://imgur.com/KIjFdln",
+        "image": "harness-1.jpg"
+      }
+    },
+    {
+      "pk": 32,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000032",
+        "name": "Black & White Spot Harness",
+        "description": "The black & white harness is a fully lined padded harness with adjustable neck and chest strap for the perfect fit, has a black buckle, rubber logo badge and a D ring to attach your matching leads. Made with fast drying material for those wet and muddy adventures.Neck dimesnsions - S/35-44cm M/39-51cm L/42-56cm. Chest dimensions - S/41-54cm M/46-61cm L/57-83cm.",
+        "price": 17.99,
+        "category": 7,
+        "image_url": "https://imgur.com/HwvaeNO",
+        "image": "harness-2.jpg"
+      }
+    },
+    {
+      "pk": 33,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000033",
+        "name": "Green Sheep Harness",
+        "description": "The green sheep harness is a fully lined padded harness with adjustable neck and chest strap for the perfect fit, has a black buckle, rubber logo badge and a D ring to attach your matching leads. Made with fast drying material for those wet and muddy adventures.Neck dimesnsions - S/35-44cm M/39-51cm L/42-56cm. Chest dimensions - S/41-54cm M/46-61cm L/57-83cm.",
+        "price": 17.99,
+        "category": 7,
+        "image_url": "https://imgur.com/SzNibBh",
+        "image": "harness-3.jpg"
+      }
+    },
+    {
+      "pk": 34,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000034",
+        "name": "Grey Pattern Harness",
+        "description": "The grey pattern harness is a fully lined padded harness with adjustable neck and chest strap for the perfect fit, has a black buckle, rubber logo badge and a D ring to attach your matching leads. Made with fast drying material for those wet and muddy adventures.Neck dimesnsions - S/35-44cm M/39-51cm L/42-56cm. Chest dimensions - S/41-54cm M/46-61cm L/57-83cm.",
+        "price": 17.99,
+        "category": 7,
+        "image_url": "https://imgur.com/TM24ZEl",
+        "image": "harness-4.jpg"
+      }
+    },
+    {
+      "pk": 35,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000035",
+        "name": "Pink Leopard Harness",
+        "description": "The pink leopard harness is a fully lined padded harness with adjustable neck and chest strap for the perfect fit, has a black buckle, rubber logo badge and a D ring to attach your matching leads. Made with fast drying material for those wet and muddy adventures.Neck dimesnsions - S/35-44cm M/39-51cm L/42-56cm. Chest dimensions - S/41-54cm M/46-61cm L/57-83cm.",
+        "price": 17.99,
+        "category": 7,
+        "image_url": "https://imgur.com/D3LoteU",
+        "image": "harness-5.jpg"
+      }
+    },
+    {
+      "pk": 36,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000036",
+        "name": "Orange Rope Lead",
+        "description": "Our stylish orange rope lead will brighten up anyones day. Made with 100% cotton for that confort feeling. The lead is approximately 5ft in length and comes with a O ring in the handle to attach one of our doggy bags, your dog treats or to the other end of the leash to wear whilst out on your adventures. We recommend hand washing with mild soap and cold water.",
+        "price": 14.50,
+        "category": 8,
+        "image_url": "https://imgur.com/vrHdrf8",
+        "image": "rope-1.jpg"
+      }
+    },
+    {
+      "pk": 37,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000037",
+        "name": "Pink Rope Lead",
+        "description": "Our stylish pink rope lead will brighten up anyones day. Made with 100% cotton for that confort feeling. The lead is approximately 5ft in length and comes with a O ring in the handle to attach one of our doggy bags, your dog treats or to the other end of the leash to wear whilst out on your adventures. We recommend hand washing with mild soap and cold water.",
+        "price": 14.50,
+        "category": 8,
+        "image_url": "https://imgur.com/u8NqOpV",
+        "image": "rope-2.jpg"
+      }
+    },
+    {
+      "pk": 38,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000038",
+        "name": "Purple Rope Lead",
+        "description": "Our stylish purple rope lead will brighten up anyones day. Made with 100% cotton for that confort feeling. The lead is approximately 5ft in length and comes with a O ring in the handle to attach one of our doggy bags, your dog treats or to the other end of the leash to wear whilst out on your adventures. We recommend hand washing with mild soap and cold water.",
+        "price": 14.50,
+        "category": 8,
+        "image_url": "https://imgur.com/jGiXNNE",
+        "image": "rope-3.jpg"
+      }
+    },
+    {
+      "pk": 39,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000039",
+        "name": "Green Rope Lead",
+        "description": "Our stylish green rope lead will brighten up anyones day. Made with 100% cotton for that confort feeling. The lead is approximately 5ft in length and comes with a O ring in the handle to attach one of our doggy bags, your dog treats or to the other end of the leash to wear whilst out on your adventures. We recommend hand washing with mild soap and cold water.",
+        "price": 14.50,
+        "category": 8,
+        "image_url": "https://imgur.com/EB9bBaA",
+        "image": "rope-4.jpg"
+      }
+    },
+    {
+      "pk": 40,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000040",
+        "name": "Blue Rope Lead",
+        "description": "Our stylish blue rope lead will brighten up anyones day. Made with 100% cotton for that confort feeling. The lead is approximately 5ft in length and comes with a O ring in the handle to attach one of our doggy bags, your dog treats or to the other end of the leash to wear whilst out on your adventures. We recommend hand washing with mild soap and cold water.",
+        "price": 14.50,
+        "category": 8,
+        "image_url": "https://imgur.com/wWJWWWk",
+        "image": "rope-5.jpg"
+      }
+    },
+    {
+      "pk": 41,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000041",
+        "name": "Grrrona Chew Toy",
+        "description": "Why not treat you dog to a soft, plushy grrrona chew toy with built in squeaker for them lazy days in the house.",
+        "price": 6.50,
+        "category": 9,
+        "image_url": "https://imgur.com/x3gp6AQ",
+        "image": "toy-1.jpg"
+      }
+    },
+    {
+      "pk": 42,
+      "model": "products.product",
+      "fields": {
+        "sku": "pp000042",
+        "name": "Starbark Chew Toy",
+        "description": "Why not treat you dog to a soft, plushy starbark chew toy with built in squeaker for them lazy days in the house.",
+        "price": 6.50,
+        "category": 9,
+        "image_url": "https://imgur.com/NuO7yRJ",
+        "image": "toy-2.jpg"
+      }
+    }
+  ]
