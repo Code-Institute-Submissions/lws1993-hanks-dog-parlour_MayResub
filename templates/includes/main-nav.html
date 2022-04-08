@@ -16,16 +16,16 @@
                 Shop
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="shop-link">
-                <a href="" class="dropdown-item">Bandanas</a>
-                <a href="" class="dropdown-item">Doggy Bags</a>
-                <a href="" class="dropdown-item">Leads</a>
-                <a href="" class="dropdown-item">Collars</a>
-                <a href="" class="dropdown-item">Harness Bundles</a>
-                <a href="" class="dropdown-item">Bows</a>
-                <a href="" class="dropdown-item">Harnesses</a>
-                <a href="" class="dropdown-item">Rope Leads</a>
-                <a href="" class="dropdown-item">Toys</a>
-                <a href="" class="dropdown-item">All Items</a>
+                <a href="{% url 'products' %}?category=bandanas" class="dropdown-item">Bandanas</a>
+                <a href="{% url 'products' %}?category=doggy_bags" class="dropdown-item">Doggy Bags</a>
+                <a href="{% url 'products' %}?category=leads" class="dropdown-item">Leads</a>
+                <a href="{% url 'products' %}?category=collars" class="dropdown-item">Collars</a>
+                <a href="{% url 'products' %}?category=harness_bundle" class="dropdown-item">Harness Bundles</a>
+                <a href="{% url 'products' %}?category=bows" class="dropdown-item">Bows</a>
+                <a href="{% url 'products' %}?category=harnesses" class="dropdown-item">Harnesses</a>
+                <a href="{% url 'products' %}?category=rope_leads" class="dropdown-item">Rope Leads</a>
+                <a href="{% url 'products' %}?category=toys" class="dropdown-item">Toys</a>
+                <a href="{% url 'products' %}?category=bandanas,doggy_bag,leads,collars,harness_bundle,bows,harnesses,rope_leads,toys" class="dropdown-item">All Products</a>
             </div>
         </li>
 
