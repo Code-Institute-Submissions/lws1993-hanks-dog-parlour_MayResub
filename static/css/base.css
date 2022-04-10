@@ -3,11 +3,36 @@ html {
 }
 
 body {
-    background: url('/media/hanks-shop.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
     color: black;
     font-family: 'Oswald';
+}
+
+/* -------------------------------- Home page */
+
+#homepage-header {
+    background: url('/media/homepage/hanks-shop.jpg') no-repeat center;
+    height: 700px;
+    background-size: cover;
+    margin-bottom: 4.5rem;
+    height: 90vh;
+}
+
+#hp-header-h1 {
+    color: #fff;
+    font-size: 65px;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.header-content {
+    margin-top: 30%;
+    padding-left: 35%;
+}
+
+.shop-now-button {
+    background: #D1A702;
+    color: white;
+    min-width: 260px;
 }
 
 /* from Bulma */
@@ -25,12 +50,6 @@ body {
 
 .main-logo-link {
     width: fit-content;
-}
-
-.shop-now-button {
-    background: #D1A702;
-    color: white;
-    min-width: 260px;
 }
 
 .btn-black {
@@ -173,6 +192,7 @@ a.category-badge > span.badge:hover {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
 
 /* -------------------------------- Media Queries */
 
