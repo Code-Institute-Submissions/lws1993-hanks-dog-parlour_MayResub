@@ -3,9 +3,12 @@ from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 from .models import Product, Category
+from django.views.decorators.csrf import csrf_exempt
 
 
 # Create your views here.
+
+@csrf_exempt
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
