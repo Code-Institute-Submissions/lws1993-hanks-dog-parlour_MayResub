@@ -9,10 +9,12 @@ from products.models import Product
 from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
 from bag.contexts import bag_contents
+from django.views.decorators.csrf import csrf_exempt
 
 import stripe
 import json
 
+@csrf_exempt
 
 @require_POST
 def cache_checkout_data(request):
