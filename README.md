@@ -159,9 +159,72 @@ A Site Map was produced for the first development stage, and is shown above. Not
 
 ## **Features**
 
+### **Landing Page**
+
+1. Navbar
+- The navbar contains the main links and navigation throughout the site. it remains consistent at the top of each page.
+- The navbar is fully mobile responsive and reacts to changes in screen size. It also allows for collapsible menu on mobile screens.
+- The navbar also contains all the categories of products on the site through the various drop downs.
+- The search bar disappears on mobile view but still works when the search icon is clicked, my account and bag also work on mobile view.
+
+2. Delivery Message
+- The delivery banner provides a clear and concise message to the user about needing to spend 50 pound to get free delivery.
+- The delivery information banner appears just below the navbar on each page, it is fully mobile responsive and reacts to the changes in screen size.
+
+3. Home Page
+- Navigation bar at the top of the page provides for easy and intuitive navigation throughout the site.
+- Distinct image and highlighted section letting the user know exactly what the site is about.
+- Search bar at the top ot the page provides for a way for a user to search ther site for a specific item that they are looking for.
+- Background image used of a workshop to make it easier to read the text and see the buttons.
+- Big shop button ontop of image to direct users straight to the store if needed.
+
+4. Product Page
+- The navigation bar at the top of the page displasys all the categories of products on the site for ease of use for the user.
+- A user can sort the products throughout the site based on name and price by choosing from the select dropdown at the top of the page.
+- When a user searches from the search bar at the top of the page the results are shown on this products page again in paginated format.
+- A add or delete function at the bottom of each product for the admin to create, update or delete products.
+- Once a product is selected a details page will show stating how many items you would like to purchse and if necessary a dropdown size selector.
+- Two big buttons on the bottom of the details page to keep shopping, or to add the item to your basket.
+
+5. Add products
+- This page is only available to superusers and can be found by clicking on my account at the top of the page and then selecting product management.
+- This page contains a form which a superuser can use to add products to the database and have the products appear on the site when done and form submitted the user gets taken to the products page of the product thehave added and a message appears showing them they have successfully addedthe product to the database.
+- Once the amdin has added a product, A message will appear in the top right hand corner stating that the product was successfully added.
+
+6. Edit Products
+- This page is only available to superusers and can be found by clicking on my edit link on either the products page or the product details page.
+- The edit product page will be a form which is instantiated with the details of the product that a user is editing.
+- Once the amdin has edited a product, A message will appear in the top right hand corner stating that the product was successfully edited.
+
+7. Bag
+- In the navbar at the thop of the bad on all screen sizes a bag icon will appear, this bag will be turquise and display £0.00 by default. Once a user adds an item to the bag the bag icon will change to a gold color to signify an item in the bag. When a user clicks on the bag icon the will be taken to the bag page.
+- When a user clicks on the bag icon when they have no items in the bag the below will be displayed indictaing they have no items in their bag and a keep shopping button to encourage them to add items to their bag.
+- When a user clicks on the bag icon when they have items in the bag the below will be displayed the items in their bag and a secure checkout button to encourage customers to move forward to the checkout process and a keep shopping button which encourages them to add more items to their bag.
+
+8. Checkout
+- When the user has items in their bag, a secure checkout button will appear, when they click on this secure checkout button on the bag page, they will get taken to the checkout page where they can complete their order and pay for their order via stripe.
+- Display order summary of whats in the shopping bag.
+
+9. Profile Page
+- Has a profile navigation allowing users to view their information.
+- A section with the order they have previousle made.
+
 [Back to contents](#content)
 
 ## **Testing**
+
+### **Html Validator**
+
+![fonts](ReadMe/media/test/js/stripe-element.png)
+
+### **Css Validator**
+
+![fonts](ReadMe/media/test/css/Css.png
+
+### **Javascript Validator**
+
+- Stripe Element ![fonts](ReadMe/media/test/js/stripe-element.png)
+- Profile ![fonts](ReadMe/media/test/js/profile.png)
 
 [Back to contents](#content)
 
@@ -479,5 +542,18 @@ Once app was setup and ready to go I deployed to Heroku by following the steps b
 [Back to contents](#content)
 
 ## **Credits**
+
+### **Content**
+  - https://github.com/LukeSmallman/pure-fitness.git
+  - https://codepen.io/trending 
+  - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/courseware/9e2f12f5584e48acb3c29e9b0d7cc4fe/579bbf01edaf47938e6a860b8f08f275/
+  - Slack
+
+### **Images**
+- Beth Moyle - Hanks Dog Parlour
+
+ ### **Acknowledgements**
+   - My mentor for helpful me with feedback and problems.
+   - Student support at code institute for their infomation and support.
 
 [Back to contents](#content)
