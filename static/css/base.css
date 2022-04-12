@@ -10,7 +10,7 @@ body {
 /* -------------------------------- Home page */
 
 #homepage-header {
-    background: url('/media/homepage/shop.jpg') no-repeat center;
+    background: url('/media/shop.jpg') no-repeat center;
     height: 700px;
     background-size: cover;
     margin-bottom: 4.5rem;
