@@ -233,6 +233,7 @@ A Site Map was produced for the first development stage, and is shown above. Not
 Bug | Fix
 --------|--------
 Products_product does not exist | There where no connections in my PostgreSQL on heroku, so I loaded my categories and products in github again and this solved the issue.
+Recieving a 500 error and my css was not laoding | I had to change the debug to 'DEVELOPMENT' in os.environ and export the debug to be True so get the css to laod.
 
 [Back to contents](#content)
 
