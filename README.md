@@ -1,3 +1,5 @@
+[View live project here](https://hanks-dog-parlour.herokuapp.com/)
+
 ## **Content**
 
 - [**UX (User Experience)**](#ux-user-experience)
@@ -128,7 +130,7 @@ A Site Map was produced for the first development stage, and is shown above. Not
 
 ### **Database**
 
-![fonts](ReadMe/media/...)
+![fonts](ReadMe/media/schema.png)
 
 1. Home
 - Contact
@@ -213,9 +215,21 @@ A Site Map was produced for the first development stage, and is shown above. Not
 
 ## **Testing**
 
+### **Accessing admin**
+
+- To access the admin the super user is 
+  - username - test
+  - password - Password@test
+
+### **Make a dummy purchase** 
+
+- To make a dummy purchase, you can use a dummy card number which is:
+   - 4242 4242 4242 4242 0424 2424
+
 ### **Html Validator**
 
-![fonts](ReadMe/media/test/js/stripe-element.png)
+![fonts](ReadMe/media/test/html.png)
+- When testing my html I had a look at the 6 errors that where showing up and my code looks like it is being duplicated but ive gone back through my code and can not see the errors that are showing up.
 
 ### **Css Validator**
 
@@ -234,6 +248,7 @@ Bug | Fix
 --------|--------
 Products_product does not exist | There where no connections in my PostgreSQL on heroku, so I loaded my categories and products in github again and this solved the issue.
 Recieving a 500 error and my css was not laoding | I had to change the debug to 'DEVELOPMENT' in os.environ and export the debug to be True so get the css to laod.
+Aws no activated |I had some trouble activating my aws account to access the s3/bucket section but the support team at aws helped me sort this out.
 
 [Back to contents](#content)
 
@@ -284,6 +299,7 @@ Recieving a 500 error and my css was not laoding | I had to change the debug to 
 - django-allauth - user authentication and account management.
 - dbdiagram - used to plan and visualise the data schema prior to and during development.
 - MindMup - used to produce the Site Map.
+- DrawSql - shcema database diagram
 
 ### **Browser**
 
@@ -554,7 +570,7 @@ Once app was setup and ready to go I deployed to Heroku by following the steps b
 - Beth Moyle - Hanks Dog Parlour
 
  ### **Acknowledgements**
-   - My mentor for helpful me with feedback and problems.
+   - My mentor was a really big help in sorting out bits of code that I kept missing.
    - Student support at code institute for their infomation and support.
 
 [Back to contents](#content)
