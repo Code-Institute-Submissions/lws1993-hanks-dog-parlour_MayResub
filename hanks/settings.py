@@ -33,6 +33,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['hanks-dog-parlour.herokuapp.com', 'localhost']
 
+DISABLE_COLLECTSTATIC=1
+
 
 # Application definition
 
