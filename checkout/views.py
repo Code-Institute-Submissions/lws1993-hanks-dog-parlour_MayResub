@@ -148,23 +148,23 @@ def checkout_success(request, order_number):
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
-    profile = UserProfile.objects.get(user=request.user)
-    # Attach the user's profile to the order
-    order.user_profile = profile
-    order.save()
+    if request.user.is_authenticated:
+        user = UserProfile.objects.get(user=request.user)
+        order.user_profile = user
+        order.save()
 
     # Save the user's info
     if save_info:
-        profile_data = {
-            'default_phone_number': order.phone_number,
-            'default_country': order.country,
-            'default_postcode': order.postcode,
-            'default_town_or_city': order.town_or_city,
-            'default_street_address1': order.street_address1,
-            'default_street_address2': order.street_address2,
-            'default_county': order.county,
+        user_data = {
+            'user_phone_number': order.phone_number,
+            'user_country': order.country,
+            'user_postcode': order.postcode,
+            'user_town_or_city': order.town_or_city,
+            'user_street_address1': order.street_address1,
+            'user_street_address2': order.street_address2,
+            'user_county': order.county,
         }
-        user_profile_form = UserProfileForm(profile_data, instance=profile)
+        user_profile_form = UserProfileForm(user_data, instance=user)
         if user_profile_form.is_valid():
             user_profile_form.save()
 
@@ -178,6 +178,7 @@ def checkout_success(request, order_number):
     template = 'checkout/checkout_success.html'
     context = {
         'order': order,
+        'on_cart_success': True,
     }
 
     return render(request, template, context)
