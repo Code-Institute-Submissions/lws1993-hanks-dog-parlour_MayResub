@@ -129,7 +129,7 @@ a.category-badge > span.badge:hover {
 
 /* ------------------------------- product images */
 
-.card-img, .card-img-top {
+.card-img, .card-img-top .no-card-img {
     height: 400px;
 }
 
