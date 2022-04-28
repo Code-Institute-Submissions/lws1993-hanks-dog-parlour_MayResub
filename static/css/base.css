@@ -127,41 +127,6 @@ a.category-badge > span.badge:hover {
 
 /* ----------------------------------------footer section  */
 
-.footer-container {
-    background-color: #153344d8;
-    position: fixed;
-    bottom: 0;
-    height: 10rem;
-}
-
-.contact-col {
-    flex-direction: column;
-    margin: 1rem 0;
-
-}
-
-.contact-col h3 {
-    font-size: 2rem;
-    color: #EDEDE9;
-}
-
-.contact-col p {
-    font-size: 1rem;
-    color: #EDEDE9;
-}
-
-.contact-col a,
-.contact-col a i {
-    color: #EDEDE9;
-    font-size: 1rem;
-    text-decoration: none;
-}
-
-.contact-col a:hover {
-    text-decoration: underline;
-    color: #D1D1C7;
-}
-
 /* ------------------------------- product images */
 
 .card-img, .card-img-top {
