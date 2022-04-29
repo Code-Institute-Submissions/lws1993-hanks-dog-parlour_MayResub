@@ -1,3 +1,14 @@
+### **Accessing admin**
+
+- To access the admin the super user is 
+  - username - test
+  - password - Password@test
+
+### **Make a dummy purchase** 
+
+- To make a dummy purchase, you can use a dummy card number which is:
+   - 4242 4242 4242 4242 0424 2424
+
 [View live project here](https://hanks-dog-parlour.herokuapp.com/)
 
 ## **Content**
@@ -82,18 +93,18 @@ As a shopper I want to be able to:
 
 ### **Fonts**
 
-![fonts](ReadMe/media/fonts/font-1.png)
-![fonts](ReadMe/media/fonts/font-2.png)
-![fonts](ReadMe/media/fonts/font-3.png)
-![fonts](ReadMe/media/fonts/font-4.png)
-![fonts](ReadMe/media/fonts/font-5.png)
-![fonts](ReadMe/media/fonts/font-6.png)
+![fonts](readme/media/fonts/font-1.png)
+![fonts](readme/media/fonts/font-2.png)
+![fonts](readme/media/fonts/font-3.png)
+![fonts](readme/media/fonts/font-4.png)
+![fonts](readme/media/fonts/font-5.png)
+![fonts](readme/media/fonts/font-6.png)
 
 When choosing a font I came across a number of really good fonts to chose from on google font and also dafont just to see if they had anything that google font did not. After a meeting with the client and vigorous testing I decided to go with oswald as this was the most eye catching and was very similar to the original logo that the client had sent me. I also went with san-serif as the backup font just in case my chosen font failed.
 
 ### **Colours**
 
-![fonts](ReadMe/media/Color/hanks.png)
+![fonts](readme/media/Color/hanks.png)
 
 The website I used to get my pallet was coolors.com which I uploaded the logo that the client gave me and this generated a pallet for. I chose these colors to have a choice just in case one color collided with another. I only use one three colors from this pallet wich where #000000, #ffffff and #D1A702. 
 
@@ -114,23 +125,23 @@ The imagery came straight from the client herself so i never had to search for a
 Initial Wireframes were produced showing the Products, home page, order summary, Basket and mobile nav layouts.
 
 #### **Web**
-![fonts](ReadMe/media/wireframes/home-page.png)
-![fonts](ReadMe/media/wireframes/mobile-nav.png)
-![fonts](ReadMe/media/wireframes/product-page.png)
-![fonts](ReadMe/media/wireframes/basket.png)
-![fonts](ReadMe/media/wireframes/order-summary.png)
+![fonts](readme/media/wireframes/home-page.png)
+![fonts](readme/media/wireframes/mobile-nav.png)
+![fonts](readme/media/wireframes/product-page.png)
+![fonts](readme/media/wireframes/basket.png)
+![fonts](readme/media/wireframes/order-summary.png)
 
 [Back to contents](#content)
 
 ### **Site Map**
 
-![fonts](ReadMe/media/site-map.png)
+![fonts](readme/media/site-map.png)
 
 A Site Map was produced for the first development stage, and is shown above. Note that the the orange squares are the pages that only the admin can access so that no one can delete or edit a product.
 
 ### **Database**
 
-![fonts](ReadMe/media/schema.png)
+![fonts](readme/media/schema.png)
 
 1. Home
 - Contact
@@ -215,42 +226,9 @@ A Site Map was produced for the first development stage, and is shown above. Not
 
 ## **Testing**
 
-### **Accessing admin**
-
-- To access the admin the super user is 
-  - username - test
-  - password - Password@test
-
-### **Make a dummy purchase** 
-
-- To make a dummy purchase, you can use a dummy card number which is:
-   - 4242 4242 4242 4242 0424 2424
-
-### **Html Validator**
-
-![fonts](ReadMe/media/test/html.png)
-- When testing my html I had a look at the 6 errors that where showing up and my code looks like it is being duplicated but ive gone back through my code and can not see the errors that are showing up.
-
-### **Css Validator**
-
-![fonts](ReadMe/media/test/css/Css.png
-
-### **Javascript Validator**
-
-- Stripe Element ![fonts](ReadMe/media/test/js/stripe-element.png)
-- Profile ![fonts](ReadMe/media/test/js/profile.png)
-
-[Back to contents](#content)
-
-## **Bugs**
-
-Bug | Fix
---------|--------
-Products_product does not exist | There where no connections in my PostgreSQL on heroku, so I loaded my categories and products in github again and this solved the issue.
-Recieving a 500 error and my css was not laoding | I had to change the debug to 'DEVELOPMENT' in os.environ and export the debug to be True so get the css to laod.
-Aws no activated |I had some trouble activating my aws account to access the s3/bucket section but the support team at aws helped me sort this out.
-
-[Back to contents](#content)
+- #### Testing.
+  - The testing section for this site is located at the following link.
+    - [Testing file](readme/testing/testing.md)
 
 ## **Technologies**
 
