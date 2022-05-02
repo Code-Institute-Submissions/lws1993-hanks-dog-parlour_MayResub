@@ -207,6 +207,66 @@ body {
     }
 }
 
+/* ---------------------------  Pagination */
+
+.paginate-items {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.current p {
+    font-size: 1.25rem;
+    margin-left: .5rem;
+}
+
+.step-links a {
+    font-size: 1.25rem;
+    color: #2a6486;
+    margin: 0 .5rem;
+    text-decoration: none;
+    transition: all .25s ease-in;
+}
+
+.step-links a:hover {
+    color: #153243;
+    text-decoration: underline;
+}
+
+/*--------------------------------------  Reviews section */
+
+.review-container {
+    margin-bottom: 7.5rem;
+}
+
+.review-title h2 {
+    margin: 4rem 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.stars {
+    flex-direction: row;
+    margin: 2.5% 0;
+}
+
+.stars i {
+    font-size: 1.5rem;
+}
+
+.review {
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+.review p,
+.review p strong {
+    font-size: 1.25rem;
+}
+
+.review p {
+    margin: 1rem 4rem;
+    text-align: center;
+}
 
 
 /* -------------------------------- Home page */
