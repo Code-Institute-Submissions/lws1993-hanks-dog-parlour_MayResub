@@ -448,6 +448,7 @@ footer {
     color: white;
     min-height: 130px;
     margin-top: 4rem;
+    position: fixed;
 }
 
 .footer-link {
