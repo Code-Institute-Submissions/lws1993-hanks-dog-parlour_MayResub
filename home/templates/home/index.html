@@ -96,35 +96,7 @@
     </div>
 </div>
 <hr class="rounded">
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-6 half-left ">
-            <img src="{{ MEDIA_URL }}homepage/harness-rack.jpg" alt="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-sm-offset-6">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 half-right">
-            <div class="container">
-                <div class="row">
-                    <!--- paragraph --->
-                    <div class="col-sm-12">
-                        <h2 class="hand-picked">Hand picked items</h2>
-                        <p class="section-2-p">
-                            Welcome to Hanks Dog Parlour, the place for clothing and accessories for dog lovers and thier dogs.
-                            We produce dog-themed products for you and your dog which are both stylish and practical.
-                            We are proud to offer high quality dog-inspired apparel at affordable prices. Most products come
-                            in a variety of sizes and styles for the perfect gift fot any owner.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{% include 'includes/section-2.html' %}
 <!-- Footer -->
 {% include 'includes/footer.html' %}
 {% endblock %}
