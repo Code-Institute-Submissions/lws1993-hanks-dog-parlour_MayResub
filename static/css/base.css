@@ -390,56 +390,6 @@ a.category-badge > span.badge:hover {
 .remove-item {
     cursor: pointer;
 }
-/*------ Homepage/section2 ------*/
-
-.hand-picked {
-    padding-top: 3rem;
-    padding-left: 1.5rem;
-}
-
-.section-2-p {
-    font-size: 1.2rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    padding-left: 1.5rem;
-}
-
-.section-cta {
-    padding-left: 1.5rem;
-}
-
-.col-xs-12 {
-  margin-bottom: 12px;
-  margin-top: 12px;
-  min-height: 200px;
-}
-.half-right {
-    background-color: lightgoldenrodyellow;
-} 
-.half-left  img,
-.half-right img {
-  height: auto;
-  width: 100%;
-}
-@media (min-width: 481px) {
-  .half-left,
-  .half-right {
-    overflow: hidden;
-    padding: 0;
-    position: relative;
-  }
-  .half-left  > .container,
-  .half-right > .container {
-    position: absolute;
-    top: 0;
-  }
-  .half-left  > .container { right: 0;}
-  .half-right > .container { left: 0; }
-}
-
-h2 {
-    font-size: 2.5rem;
-}
 
 /* -------------------------------- Footer */
 
@@ -448,7 +398,6 @@ footer {
     color: white;
     min-height: 130px;
     margin-top: 4rem;
-    position: fixed;
 }
 
 .footer-link {
