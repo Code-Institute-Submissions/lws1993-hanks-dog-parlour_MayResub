@@ -114,6 +114,10 @@ Aws no activated |I had some trouble activating my AWS account to access the s3/
   - Single Products Page - [view](/readme/media/test/html/products-single.png)
   - Profile Page - [view](/readme/media/test/html/profile.png)
   - Sign Up Page - [view](/readme/media/test/html/sign-up.png)
+  - Home Page - [view](/readme/media/test/html/homepage.png)
+  - Add Blog Page - [view](/readme/media/test/html/add-blog.png)
+  - Single Blog Page - [view](/readme/media/test/html/single-blog.png)
+  - All Blog Page - [view](/readme/media/test/html/all-blog.png)
 
 - Css
   - Add Products Page - [view](/readme/media/test/css/add-product.png)
@@ -127,6 +131,10 @@ Aws no activated |I had some trouble activating my AWS account to access the s3/
   - Single Products Page - [view](/readme/media/test/css/single-categories.png)
   - Profile Page - [view](/readme/media/test/css/profile.png)
   - Sign Up Page - [view](/readme/media/test/css/sign-up.png)
+  - Home Page - [view](/readme/media/test/css/home.png)
+  - Add Blog Page - [view](/readme/media/test/css/add-blog.png)
+  - Single Blog Page - [view](/readme/media/test/css/single-blog.png)
+  - All Blog Page - [view](/readme/media/test/css/all-blog.png)
 
 - Js
   - Checkout - [view](/readme/media/test/js/checkout.png)
@@ -165,12 +173,31 @@ Aws no activated |I had some trouble activating my AWS account to access the s3/
     - Urls.py - [view](/readme/media/test/python/products/urls.png)
     - Views.py - [view](/readme/media/test/python/products/views.png)
     - Widgets.py - [view](/readme/media/test/python/products/widgets.png)
-  - Products
+  - Profile
     - Apps.py - [view](/readme/media/test/python/profile/apps.png)
     - Forms.py - [view](/readme/media/test/python/profile/forms.png)
     - Models.py - [view](/readme/media/test/python/profile/models.png)
     - Urls.py - [view](/readme/media/test/python/profile/urls.png)
     - Views.py - [view](/readme/media/test/python/profile/views.png)
+  - Blog
+    - Admin.py - [view](/readme/media/test/python/blog/admin.png)
+    - Apps.py - [view](/readme/media/test/python/blog/apps.png)
+    - Forms.py - [view](/readme/media/test/python/blog/forms.png)
+    - Models.py - [view](/readme/media/test/python/blog/models.png)
+    - Urls.py - [view](/readme/media/test/python/blog/urls.png)
+    - Views.py - [view](/readme/media/test/python/blog/views.png)
+    - Widgets.py - [view](/readme/media/test/python/blog/widgets.png)
+  - Home
+    - Apps.py - [view](/readme/media/test/python/home/apps.png)
+    - Urls.py - [view](/readme/media/test/python/home/urls.png)
+    - Views.py - [view](/readme/media/test/python/home/views.png)
+  - Reviews
+    - Admin.py - [view](/readme/media/test/python/reviews/admin.png)
+    - Apps.py - [view](/readme/media/test/python/reviews/apps.png)
+    - Forms.py - [view](/readme/media/test/python/reviews/forms.png)
+    - Models.py - [view](/readme/media/test/python/reviews/models.png)
+    - Urls.py - [view](/readme/media/test/python/reviews/urls.png)
+    - Views.py - [view](/readme/media/test/python/reviews/views.png)
 
 - Lighthouse
   - Add Products Page - [view](/readme/media/test/lighthouse/add-product.png)
@@ -184,6 +211,10 @@ Aws no activated |I had some trouble activating my AWS account to access the s3/
   - Single Products Page - [view](/readme/media/test/lighthouse/single-product.png)
   - Profile Page - [view](/readme/media/test/lighthouse/profile.png)
   - Sign Up Page - [view](/readme/media/test/lighthouse/sign-up.png)
+  - Home Page - [view](/readme/media/test/lighthouse/homepage.png)
+  - Add Blog Page - [view](/readme/media/test/lighthouse/add-blog.png)
+  - Single Blog Page - [view](/readme/media/test/lighthouse/single-blog.png)
+  - All Blog Page - [view](/readme/media/test/lighthouse/all-blog.png)
 
 [Back to contents](#contents)
 
