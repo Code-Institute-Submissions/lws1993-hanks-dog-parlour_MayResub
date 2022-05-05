@@ -71,19 +71,31 @@
 ### **Feature testing**
  - All functionality of the website was also tested manually to ensure it all worked correctly.
    - Shopping Bag
-     - ?????
-   - Payment
-     - ????
-   - Adding Products
-     - ????
-   - Deleting Products
-     - ????
-   - Editing Products
-     - ????
-   - Profile
-     - ????
-   - Size Selection
-     - ????
+     ![images](/readme/media/feature-testing/add-to-bag.png)
+     ![images](/readme/media/feature-testing/delete-bag.png)
+     ![images](/readme/media/feature-testing/order-confirmation.png)
+     ![images](/readme/media/feature-testing/order-admin.png)
+     ![images](/readme/media/feature-testing/webhook-confirmation.png)
+ 
+   - Products
+     ![images](/readme/media/feature-testing/add-product.png)
+     ![images](/readme/media/feature-testing/edit-product.png)
+     ![images](/readme/media/feature-testing/product-added.png)
+     ![images](/readme/media/feature-testing/confirm-delete.png)
+
+   - Reviews
+     ![images](/readme/media/feature-testing/add-review.png)
+     ![images](/readme/media/feature-testing/delete-review.png)
+     ![images](/readme/media/feature-testing/review-page.png)
+
+   - Blog
+     ![images](/readme/media/feature-testing/add-blog.png)
+     ![images](/readme/media/feature-testing/blog-added.png)
+     ![images](/readme/media/feature-testing/blog-page.png)
+     ![images](/readme/media/feature-testing/blog-delete.png)
+
+   - Forms
+     ![images](/readme/media/feature-testing/forms.png)
 
 [Back to contents](#contents)
 
@@ -220,11 +232,26 @@ Aws no activated |I had some trouble activating my AWS account to access the s3/
 
 ## **Accessibility**
 
+- The site has been tested for Accessibility using google lighthouse and the Accessibility insights chrome extension.
+- When testing I made several changes to heading elements to improve the Accessibility.
+- I have also ensured that all images have alt text attributes.
+- All icons have been aria-labelled and include text descriptions for screenreaders only.
+- Upon testing in lighthouse, I have received scores of 98% to 100% across the site.
+
 [Back to contents](#contents)
 
 ---
 
 ## **Responsive and Browsers**
+
+- I have tested the site Responsivenessacross Google chrome dev tools. 
+- I have also used the application across different screen sizes.
+- The app has also been used on different browsers to check its compatibility
+    - Google chrome.
+    - Safari
+    - Opera
+    - Microsoft edge
+    - Firefox.
 
 [Back to contents](#contents)
 
