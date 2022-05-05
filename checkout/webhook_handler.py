@@ -11,14 +11,16 @@ import json
 import time
 
 
-class StripeWH_Handler:
+class StripeWebhookHandler:
     """Handle Stripe webhooks"""
 
     def __init__(self, request):
         self.request = request
 
     def _send_confirmation_email(self, order):
-        """Send the user a confirmation email"""
+        """
+        Send the user a confirmation email
+        """
         cust_email = order.email
         subject = render_to_string(
             'checkout/confirmation_emails/confirmation_email_subject.txt',
@@ -26,13 +28,13 @@ class StripeWH_Handler:
         body = render_to_string(
             'checkout/confirmation_emails/confirmation_email_body.txt',
             {'order': order, 'contact_email': settings.DEFAULT_FROM_EMAIL})
-        
+
         send_mail(
             subject,
             body,
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
-        )        
+        )
 
     def handle_event(self, event):
         """
@@ -48,7 +50,7 @@ class StripeWH_Handler:
         """
         intent = event.data.object
         pid = intent.id
-        bag = intent.metadata.bag
+        basket = intent.metadata.basket
         save_info = intent.metadata.save_info
 
         billing_details = intent.charges.data[0].billing_details
@@ -60,7 +62,7 @@ class StripeWH_Handler:
             if value == "":
                 shipping_details.address[field] = None
 
-        # Update profile information if save_info was checked
+        # Update profile info if save_info was checked
         profile = None
         username = intent.metadata.username
         if username != 'AnonymousUser':

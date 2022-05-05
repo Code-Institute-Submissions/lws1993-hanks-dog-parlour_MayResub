@@ -69,21 +69,21 @@
 ## **Manual Testing**
 
 ### **Feature testing**
-
-- Shopping Bag
-  - ?????
-- Payment
-  - ????
-- Adding Products
-  - ????
-- Deleting Products
-  - ????
-- Editing Products
-  - ????
-- Profile
-  - ????
-- Size Selection
-  - ????
+ - All functionality of the website was also tested manually to ensure it all worked correctly.
+   - Shopping Bag
+     - ?????
+   - Payment
+     - ????
+   - Adding Products
+     - ????
+   - Deleting Products
+     - ????
+   - Editing Products
+     - ????
+   - Profile
+     - ????
+   - Size Selection
+     - ????
 
 [Back to contents](#contents)
 
