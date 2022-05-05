@@ -138,6 +138,7 @@ Initial Wireframes were produced showing the Products, home page, order summary,
 ### **Site Map**
 
 ![fonts](readme/media/site-map.png)
+![fonts](readme/media/blog-review-mindmap.png)
 
 A Site Map was produced for the first development stage and is shown above. Note that the orange squares are the pages that only the admin can access so that no one can delete or edit a product.
 
@@ -169,6 +170,16 @@ A Site Map was produced for the first development stage and is shown above. Note
 4. Profile
 - UserProfile
    - This model contains the default order details saved from customer's previous orders which they can use for future orders.
+
+5. Blog
+- Post
+  - Contains the blog post and details of its author and title.
+- Comments
+  - Contains the comments for each post.
+
+6. Reviews
+- Review
+  - Contains the review sections.
 
 [Back to contents](#content)
 
@@ -223,6 +234,14 @@ A Site Map was produced for the first development stage and is shown above. Note
 9. Profile Page
 - Has profile navigation allowing users to view their information.
 - A section with the order they have previously made.
+
+10. Blog Page
+- All the infomation will be located here for latest updates of the company.
+- Only the admin can add/delete blogs.
+
+11. Review Page
+- Users will be able to access this to leave a personal review.
+- The user can also delete and update the review, but only their own.
 
 [Back to contents](#content)
 
