@@ -31,13 +31,6 @@
 - [**Features**](#features)
   
 - [**Testing**](#testing)
-  - [**Functionality Testing**](#functionality-testing)
-  - [**User Story Testing**](#user-story-testing)
-  - [**Performance Testing**](#performance-testing)
-  - [**Responsive**](#responsive)
-  - [**W3C Validator**](#w3c-validator)
-
-- [**Bugs**](#bugs)
 
 - [**Technologies**](#technologies)
   - [**Languages**](#languages)
